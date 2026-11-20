@@ -1,0 +1,6 @@
+.token
+token.txt
+data/
+__pycache__/
+*.pyc
+*.muse-github-snapshot-sync.json
