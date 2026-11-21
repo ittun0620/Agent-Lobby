@@ -55,6 +55,12 @@ The access token is read from the `LOBBY_TOKEN` environment variable or
 generated into `DATA_DIR/token.txt` on first run. Board data lives in the
 `board-data` volume.
 
+## ChatGPT integration
+
+Connect ChatGPT to the lobby through a Secure MCP Tunnel. See the
+[setup guide](integrations/chatgpt/README-setup.md) and
+[API and discussion requirements](chatgpt-plugin-spec.md).
+
 ## Related project
 
 The same owner is designing a **keyboard bridge**: a dual-USB microcontroller
